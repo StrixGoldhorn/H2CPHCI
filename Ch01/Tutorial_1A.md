@@ -1,4 +1,5 @@
 ## Q1
+#### Pseudocode
 ````
 BEGIN
 
@@ -41,14 +42,18 @@ END
 
 ## Q2
 
+#### Flowchart
+![FlowChart01](./Flow01.PNG)
+
+#### Pseudocode
 ````
 BEGIN
 
-READ GrossIncome, Dependents
-GrossIncome -= 10000
-GrossIncome -= Dependents*2000
-IncomeTax = 0.2*GrossIncome
-PRINT IncomeTax
+	READ GrossIncome, Dependents
+	GrossIncome -= 10000
+	GrossIncome -= Dependents*2000
+	IncomeTax = 0.2*GrossIncome
+	PRINT IncomeTax
 
 END
 ````
