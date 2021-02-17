@@ -15,7 +15,7 @@ BEGIN
 				BREAK
       
 			Mark>54
-      	PRINT "C"
+      				PRINT "C"
 				BREAK
 
 			Mark>49
