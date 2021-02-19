@@ -34,7 +34,7 @@
 
 ### ii)
 |  | 1 | 2 | 3 | 4 |
-| --- | --- | :---: | --- | :---: |
+| --- | --- | :---: | :---: | :---: |
 | Car over 10 years old? | ✕ | ✕ | ✓ | ✓ |
 | Refused by other companies? | ✕ | ✕/✓ | ✕ | ✓ |
 | More than 3 previous claims? | ✕ | ✕/✓ | ✕/✓  | ✕/✓ |
