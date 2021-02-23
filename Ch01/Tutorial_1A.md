@@ -6,33 +6,19 @@ BEGIN
 		READ Mark
  
 		CASE Mark
-			Mark>69
-				PRINT "A"
-				BREAK
+			Mark>69 : PRINT "A"
       
-			Mark>59
-				PRINT "B"
-				BREAK
+			Mark>59 : PRINT "B"
       
-			Mark>54
-      				PRINT "C"
-				BREAK
+			Mark>54 : PRINT "C"
 
-			Mark>49
-				PRINT "D"
-				BREAK
+			Mark>49 : PRINT "D"
     
-			Mark>44
-				PRINT "E"
-				BREAK
+			Mark>44 : PRINT "E"
      
-			Mark>39
-				PRINT "S"
-				BREAK
+			Mark>39 : PRINT "S"
 
-			OTHERWISE
-				PRINT "U"
-				BREAK
+			OTHERWISE PRINT "U"
 		END-CASE
  
 END
