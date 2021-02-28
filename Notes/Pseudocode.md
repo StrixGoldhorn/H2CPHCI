@@ -1,4 +1,4 @@
-# A Dummies to Pseudocode
+# A Dummies Guide to Pseudocode
 
 ## Content Page
 
