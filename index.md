@@ -5,3 +5,5 @@
 ## Chapters
 
 ## Notes
+[Pseudocode](https://strixgoldhorn.github.io/H2CPHCI/Notes/Pseudocode)
+[Chapter 02](https://strixgoldhorn.github.io/H2CPHCI/Notes/Ch02)
