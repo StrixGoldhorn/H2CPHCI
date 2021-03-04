@@ -5,7 +5,7 @@ BEGIN
 
 		READ Mark
  
-		CASE Mark
+		CASE OF Mark
 			Mark>69 : PRINT "A"
       
 			Mark>59 : PRINT "B"
@@ -19,7 +19,7 @@ BEGIN
 			Mark>39 : PRINT "S"
 
 			OTHERWISE PRINT "U"
-		END-CASE
+		ENDCASE
  
 END
 ````
