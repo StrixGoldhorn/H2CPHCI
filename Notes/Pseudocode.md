@@ -104,6 +104,16 @@ IF <condition>
 ENDIF
 ````
 
+ELSEIF<br/>
+````
+IF <condition>
+  <statement>
+ELSE IF <condition>
+  <statement>
+ENDIF
+ENDIF
+````
+
 
 ### CASE
 aka switch statements<br/>
