@@ -76,6 +76,7 @@ Output multiple: `OUTPUT <VarName or String>, <VarName or String>`
 | Equal to                 |  =        |
 | Not equal to             |  <>       |
 - Result is always BOOLEAN
+- Not equal to is NOT `!=`
 
 
 ### Logic Operators
