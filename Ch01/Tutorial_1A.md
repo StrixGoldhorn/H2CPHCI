@@ -36,8 +36,7 @@ END
 BEGIN
 
 	READ GrossIncome, Dependents
-	GrossIncome -= 10000
-	GrossIncome -= Dependents*2000
+	GrossIncome = GrossIncome - 10000 - Dependents*2000
 	IncomeTax = 0.2*GrossIncome
 	IF IncomeTax<0
 		IncomeTax = 0
