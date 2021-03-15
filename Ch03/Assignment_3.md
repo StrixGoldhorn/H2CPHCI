@@ -59,7 +59,7 @@ import math
 def main():
     maxd = -1
     maxi = -1
-    for i in range(25,50):
+    for i in range(100, 111):
         factors = []
         for j in range(1, round(math.sqrt(i))+1):
             if(i%j==0):
