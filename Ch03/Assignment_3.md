@@ -58,7 +58,8 @@ main()
 import math
 def main():
     maxd = -1
-    for i in range(100,111):
+    maxi = -1
+    for i in range(25,50):
         factors = []
         for j in range(1, round(math.sqrt(i))+1):
             if(i%j==0):
@@ -68,9 +69,10 @@ def main():
         print(f"{i}: ", " ".join(str(i) for i in factors))
         t = sum(factors)
         if t>maxd:
-            maxd = i
+            maxd = t
+            maxi = i
         print(f"Sum of divisors: {t}\n")
-    print(f"{i} has maximum sum of divisors")
+    print(f"{maxi} has maximum sum of divisors")
             
 main()
 ````
