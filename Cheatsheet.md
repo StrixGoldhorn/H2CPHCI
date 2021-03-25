@@ -1,9 +1,11 @@
 ## Strix's Python Cheatsheet
 
 ### list2str
+````Python
 def list2str(n):
     s = ""
     return(s.join(n))
+````
 
 ### Menu UI
 ````Python
