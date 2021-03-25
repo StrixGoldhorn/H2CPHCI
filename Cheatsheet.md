@@ -1,5 +1,10 @@
 ## Strix's Python Cheatsheet
 
+### list2str
+def list2str(n):
+    s = ""
+    return(s.join(n))
+
 ### Menu UI
 ````Python
 usr1 = input("blah blah blah")
