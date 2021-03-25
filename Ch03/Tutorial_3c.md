@@ -22,7 +22,7 @@ print(f"Total bill: ${total:.2f}")
 
 <br/><br/><br/>
 
-## 2a
+## 2
 ````Python
 n = 1
 def GCD(x,y):
