@@ -66,7 +66,10 @@ for i in temp:
     if int(i)>0:
         total+=int(i)
         cnt+=1
-print(total/cnt)
+if  total == 0:
+    print("No days above freezing")
+else:
+    print(total/cnt)
 
 # Sample input: 10, 20, 23, -2, -1000, -4, 0, 41
 ````
